@@ -1,0 +1,50 @@
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width: 50%;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+          .fuzzy-bubbles-bold {
+            font-family: "Fuzzy Bubbles", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+          }
+
+          h3 {
+            font-size: 25px !important;
+          }
+
+          .btn-success:hover {
+            background-color: coral;
+            transform: scale(1.2) rotateZ(10deg)
+          }
+         
+          canvas {
+            animation-name: demo;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            border-radius: 20px;
+          }
+
+          @keyframes demo {
+            from{box-shadow: 10px 10px 100px royalblue;}
+            50%{box-shadow: -10px 10px 100px gold;}
+            75%{box-shadow: 10px -10px 100px fuchsia;}
+            to{box-shadow: -10px -10px 100px coral;}
+          }
